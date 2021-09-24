@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(224, 245, 166);
+    
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    font-size: 18px;
+   
+
+}
+h1, h2{
+    color:rgb(45, 41, 245)
+}
+h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+h2{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.Main{
+    text-align: justify;
+    margin-bottom: 20px;
+   
+  
+}
+.author-text{
+    font-size: 22px;
+    float: left;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color: indianred;
+}
+.container {
+    
+    width: 1140px;
+    margin: 20px auto 0 auto;
+    
+}
+.Blog-Post{
+    
+    width: 75%;
+    float: left;
+    padding-right: 30px;
+    position: relative;
+   color: rgb(245, 42, 7);
+}
+.other-post{
+    width: 25%;
+    float: left;
+    
+
+}
+.author-box{
+    padding-top: 20px;
+    border-top: 1px solid #ccc;
+}
+.other{
+    margin-bottom: 40px;
+}
+.author-box img{
+    height: 100px;
+    width: 80px;
+    float: left;
+    border-radius: 50%;
+}
+.Blog-Post img{
+    height: 150px;
+    width: auto;
+    background-color: transparent;
+}
+.date{
+    position: absolute;
+    top: 5px;
+    right: 30px;
+    color: rgb(52, 25, 114);
+}
